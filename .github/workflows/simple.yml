@@ -8,7 +8,8 @@ jobs:
     steps:
       - name: echo a string
         run: echo "Hellow World" 
-      - name: echo multiple string
-        run:  |
-          welcome to
-          git actions     
+      - name: python Command
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python      
