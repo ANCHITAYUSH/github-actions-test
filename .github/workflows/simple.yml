@@ -8,3 +8,7 @@ jobs:
     steps:
       - name: echo a string
         run: echo "Hellow World" 
+      - name: echo multiple string
+        run: |
+          welcome to
+          git actions     
