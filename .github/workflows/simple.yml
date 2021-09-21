@@ -7,8 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: echo "Hellow World"
-      - name: echo multiple string
-        run: |
-          welcome to
-          git actions    
+        run: echo "Hellow World" 
